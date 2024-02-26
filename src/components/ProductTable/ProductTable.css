@@ -1,0 +1,13 @@
+.container-header-product {
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 20px;
+
+    border: 1px solid #fff;
+}
+
+#header-product {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px;
+}

@@ -1,0 +1,20 @@
+
+#container-category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #fff;
+    border-left: none;
+    border-right: none;
+
+    width: 100%;
+    margin-top: 20px;
+
+    background-color: #424242;
+}
+
+#container-category h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,8 @@
+* Aprendi sobre a hierarquia de componentes dentro do React
+      - Aprendir que devemos observar bem a estrutura do projeto como os dados que serão trabalhado e a UI, para podermos definir nossa arvore de componentes partindo de um componete pai e dentro dele os filhos que receberam os estados e propriedades criados.
+
+* Aprendi que para podermos criar um estado devemos fazer algumas observações como: 
+      - Se a informação não muda com o tempo então não é estado, se a informação pode ser adiquirida a partir de outro dado então não é estado, agora se a informação está diretamente ligada a entradas do usuário e pode sofrer mudanças aparentemente ela pode virar uma variável de estado para amarzenarmos esse dado na memoria do nosso componente.
+      - Devemos decidir também onde vão "morar" esses estados, então devemos entender quais componentes vão fazer uso desses estados e achar qual é o componente pai comum mais próximo desses componentes, pois é um ótimo lugar para ser criado os estádos, tendo em vista que o React faz comunicação dessas informações de forma unidirecional(Dos pais para os filhos).
+
+* Aprendi que em algumas ocasiões vamos ter que informar nosso componente pai sobre ações e eventos feito nos componentes filhos para que nossas variáveis de estados possam ser atualizadas, para essas situações usamos passagens de funções por meio das props.

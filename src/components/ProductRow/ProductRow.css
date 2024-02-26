@@ -1,0 +1,32 @@
+#container-product-row {
+    width: 100%;
+}
+
+#products {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border-bottom: 1px solid #fff;
+
+    font-weight: bold;
+}
+
+#products p {
+    margin-bottom: 10px;
+}
+
+#product-name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 15px;
+}
+
+#product-price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 15px;
+    width: 90%;
+}
